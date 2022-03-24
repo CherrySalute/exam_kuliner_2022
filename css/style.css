@@ -1,0 +1,268 @@
+@charset "utf-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;1,300&display=swap');
+
+/* font-family: 'Pacifico', cursive;
+font-family: 'Source Sans Pro', sans-serif; */
+
+
+*{box-sizing: border-box; font-family: 'Source Sans Pro', Arial, sans-serif;}
+html, body{margin: 0; padding: 0;}
+h1, h2, h3, h4, h5, h6, p{margin: 0;}
+ol, ul{margin: 0; padding: 0; list-style: none;}
+a{text-decoration: none;}
+
+.font_pacificio{font-family: 'Pacifico', cursive;}
+
+
+#header{}
+#header #top
+{
+    width: 100%; height: 30px;
+    padding: 0 10px;
+    background-color: #000;
+}
+#header #top .wrap
+{
+    width: 1160px; height: 100%;
+    margin: 0 auto;
+}
+#header #top .left{float: left;}
+#header #top .left ul{}
+#header #top .left ul li
+{
+    float: left;
+    padding-left: 10px;
+    line-height: 30px;
+}
+
+#header #top .left ul li p
+{
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+}
+
+#header #top .right{float: right;}
+#header #top .right ul{}
+#header #top .right ul li
+{
+    float: left;
+    line-height: 30px;
+    /* padding-right: 10px; */
+}
+#header #top .right ul li a
+{
+    display: block;
+    font-size: 14px;
+    font-weight: normal;
+    color: white;
+    padding: 0 10px;
+}
+
+
+
+#header #main
+{
+    width: 100%; height: 560px;
+    background-image: url(../img/1.jpg);
+    background-size: cover;
+    background-position: 50% 50%;
+    background-attachment: fixed;
+    /* text-align: center;     */
+}
+#header #main .dark
+{
+    height: 100%; width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);    
+}
+
+#header #main .dark .wrap
+{
+    /* display: inline-block; */
+    width: 1160px; height: 66px;
+    position: relative;
+    margin: 0 auto;
+    padding: 0 10px;
+    
+}
+
+#header #main .dark .wrap .logo{position: absolute; padding: 15px 10px;}
+
+
+#header #main .dark .wrap .menu{float: right; text-transform: uppercase;}
+#header #main .dark .wrap .menu ul{float: left;}
+#header #main .dark .wrap .menu ul li
+{
+    float: left;
+    line-height: 66px;
+    padding: 0 20px;    
+}
+#header #main .dark .wrap .menu ul li a
+{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+#header #main .dark .wrap .menu ul li:hover{background-color: rgba(255, 255, 255,0.6);}
+#header #main .dark .wrap .menu ul li:hover a{color: #ff6600;}
+
+
+#header #main .dark .wrap .menu .btn{float: left; line-height: 66px; padding-left: 60px; }
+#header #main .dark .wrap .menu .btn button
+{
+    text-transform: uppercase;
+    border: 1px solid #ff6600;
+    border-radius: 4px;
+    padding: 10px 14px;
+    background-color: #f60;
+    cursor: pointer;
+}
+
+#header #main .dark .wrap .menu .btn button a
+{
+    /* display: block; */
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+#header #main .dark .wrap .menu .btn button:hover {background-color: #fff;}
+#header #main .dark .wrap .menu .btn button:hover a{color: #f60;}
+
+
+
+
+#header #main .dark .wrap_under
+{
+    width: 1160px; height: 494px;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+}
+#header #main .dark .wrap_under .textwrap
+{
+    width: 100%; 
+    transform: translate(-50%, -50%);
+    position: absolute; left: 50%; top: 50%;
+}
+#header #main .dark .wrap_under .textwrap .title{}
+#header #main .dark .wrap_under .textwrap .title h1
+{
+    font-size: 45px;
+    line-height: 72px;
+    color: white;
+    font-family: 'Pacifico', cursive;
+}
+#header #main .dark .wrap_under .textwrap .cont{}
+#header #main .dark .wrap_under .textwrap .cont p
+{
+    font-size: 14px;
+    color: white;
+    padding-top: 16px;
+    padding-bottom: 40px;
+}
+#header #main .dark .wrap_under .textwrap .btn{display: inline-block; font-size: 0;}
+#header #main .dark .wrap_under .textwrap .btn li
+{
+    float: left;
+    width: 202px; height: 42px;
+    border: 1px solid #f60;
+    border-radius: 8px;
+    padding: 0 20px;
+    margin: 0 20px;
+    text-transform: capitalize;
+}
+#header #main .dark .wrap_under .textwrap .btn li:hover
+{background-color: rgba(255, 255, 255, 0.4);}
+#header #main .dark .wrap_under .textwrap .btn li:hover a{color: #f60;}
+
+#header #main .dark .wrap_under .textwrap .btn li a
+{
+    display: block;
+    line-height: 42px;
+    font-size: 16px;
+    font-weight: bold;
+    color: white;
+}
+
+
+#story
+{
+    width: 100%; height: 600px;
+    overflow: hidden;
+}
+#story .wrap
+{
+    width: 1160px;  height: 100%;
+    padding: 0 10px;
+    margin: 0 auto;
+    text-align: center; 
+}
+#story .wrap .title
+{ 
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+#story .wrap .title h2
+{
+    font-family: 'Pacifico', cursive;
+    color: #555;
+    font-size: 54px;
+    line-height: 72px;
+}
+#story .wrap .title h2 span
+{
+    font-family: 'Pacifico', cursive;
+    color: #f60;
+}
+#story .wrap .title p
+{
+    padding-top: 20px;
+    font-size: 16px;
+    color: #555;    
+}
+#story .wrap .cont{}
+#story .wrap .cont .box
+{
+    float: left;
+    width: 540px; height: 200px;
+    /* background-color: #35c; */
+    margin: 0 15px;
+    position: relative;
+}
+
+#story .wrap .cont .box.imgBox
+{
+    background-image: url(../img/cook-01.jpg);
+    background-position: 50% 65%;
+    border-radius: 8px;
+    /* background-size: cover; */
+}
+#story .wrap .cont .box.contBox{}
+#story .wrap .cont .box.contBox p
+{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding-bottom: 40px;
+}
+#story .wrap .cont .box.contBox a
+{
+    position: absolute;
+    bottom: 10px; left: 50%;
+    transform: translateX(-50%);
+    background-repeat: no-repeat;
+}
+
+#story .wrap .bottom
+{
+    display: inline-block;
+    padding-top: 100px;
+}
+#story .wrap .bottom img
+{
+    width: 100%;
+}
